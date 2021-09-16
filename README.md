@@ -17,6 +17,7 @@ Steps to reproduce
 
 `R CMD INSTALL errorReprex`
 
+
 `cd errorReprex`
 
 `git checkout no_error`
