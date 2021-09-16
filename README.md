@@ -9,9 +9,7 @@ Also neither branch fails if the package version of emayili is <= 0.4.15
 
 Steps to reproduce
 
-[optional run on docker image]
-
-`docker run -it rocker/tidyverse bash`
+[optional run on docker image] `docker run -it rocker/tidyverse bash`
 
 `git clone https://github.com/adam-gruer/errorReprex.git`
 
