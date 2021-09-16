@@ -9,6 +9,13 @@ Also neither branch fails if the package version of emayili is <= 0.4.15
 
 Steps to reproduce
 
-git clone 
+`git clone https://github.com/adam-gruer/errorReprex.git`
+`Rscript -e 'install.packages("emayili")'`
+`R CMD INSTALL errorReprex`
+
+`cd errorReprex`
+`git checkout no_error`
+`cd ..`
+`R CMD INSTALL errorReprex`
 
 
