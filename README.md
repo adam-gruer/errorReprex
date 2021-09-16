@@ -27,4 +27,25 @@ Steps to reproduce
 `R CMD INSTALL errorReprex`
 
 
+## Error output
 
+```sh
+* installing to library ‘/usr/local/lib/R/site-library’
+* installing *source* package ‘errorReprex’ ...
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+No man pages found in package  ‘errorReprex’
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Error : Can't convert <logical> to <character>.
+Error: package or namespace load failed for ‘errorReprex’:
+ unable to load R code in package ‘errorReprex’
+Error: loading failed
+Execution halted
+ERROR: loading failed
+* removing ‘/usr/local/lib/R/site-library/errorReprex’
+
+```
