@@ -11,7 +11,9 @@ Also neither branch fails if the installed package version of emayili is <= 0.4.
 
 ### Setup
 
-[optional run on docker image] `docker run -it rocker/tidyverse bash`
+[optional run on docker image] ```sh
+docker run -it rocker/tidyverse bash
+```
 
 ```sh
 git clone https://github.com/adam-gruer/errorReprex.git
